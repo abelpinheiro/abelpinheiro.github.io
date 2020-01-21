@@ -1,5 +1,3 @@
-
-
 .container-fluid{
     padding: 0% 0% 15%;
 }
@@ -7,6 +5,10 @@
 .first-box{
     box-sizing: border-box;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #presentation{
@@ -17,12 +19,25 @@
     font-family: 'Courier Prime', monospace;
 }
 
+h2 > span{
+    background-color: black;
+    color: #5de334;
+    font-family: monospace;
+
+}
 
 .nav-item{
     padding: 0 18px;
     font-size: 1.8rem;
 }
 
-.about-header{
-    font-style: oblique;
+
+.skill-area{
+    font-family: 'Courier Prime', monospace;
+}
+
+.about-layout-type{
+    background-color: blue;
+    height: 10px;
+    width: 350px;
 }
